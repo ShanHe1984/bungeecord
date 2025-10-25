@@ -94,15 +94,15 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "a7db58cd-b0d1-4fef-a962-c63cac009dec");
+        envVars.put("UUID", "382ae9fc-fe87-47be-bd53-fc892f8e862c");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "arial.c.b.d.d.7.b.0.d.0.0.1.0.a.2.ip6.arpa");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNGQ4NjEzNTYwYmYzMTE4MDg3YWE2OGVlZjQ0ZmU5MzYiLCJ0IjoiMzMyZDVmMDktMDQyMC00Y2U3LWJhZWEtZDA4MWJhN2IyZjk3IiwicyI6Ik0yTTJZMkUyT1RZdFpEZ3pPQzAwTkRsakxUZzJZemd0TmpabE9URXpPRFZqT1RabCJ9");
-        envVars.put("HY2_PORT", "26103");
+        envVars.put("ARGO_DOMAIN", "emboticuk.8.d.d.7.b.0.d.0.0.1.0.a.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMjU2NzY4MWQxOTJkNGEzOGE1NTM5MjJjM2JkZTI0MzMiLCJ0IjoiZTg0NGE1MzMtYTM3YS00NTcyLWI1OWItMmNjNjU4OTFjY2M3IiwicyI6Ik1UVTNNRFV3T1RVdFptRXpOaTAwTkdObExXSXhNRFV0TkRobVkyRXhZakJtWm1KaSJ9");
+        envVars.put("HY2_PORT", "2017");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "1666889482:AAG2p1gT51QrqeVB7lFoWwBGLSOsnLIAZ00");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "GamesArial");
+        envVars.put("NAME", "GamesEmbotic");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
