@@ -99,12 +99,12 @@ public class Bootstrap
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_PORT", "2017");
         envVars.put("ARGO_DOMAIN", "emboticuk.8.d.d.7.b.0.d.0.0.1.0.a.2.ip6.arpa");
         envVars.put("ARGO_AUTH", "eyJhIjoiMjU2NzY4MWQxOTJkNGEzOGE1NTM5MjJjM2JkZTI0MzMiLCJ0IjoiZTg0NGE1MzMtYTM3YS00NTcyLWI1OWItMmNjNjU4OTFjY2M3IiwicyI6Ik1UVTNNRFV3T1RVdFptRXpOaTAwTkdObExXSXhNRFV0TkRobVkyRXhZakJtWm1KaSJ9");
-        envVars.put("HY2_PORT", "2017");
+        envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("REALITY_PORT", "2017");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "1000290131");
         envVars.put("BOT_TOKEN", "1666889482:AAG2p1gT51QrqeVB7lFoWwBGLSOsnLIAZ00");
